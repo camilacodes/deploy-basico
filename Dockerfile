@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 COPY app.py app.py
 
 # Exponha a porta que a aplicação vai usar
-EXPOSE 8080
+EXPOSE 500
 
 # Comando para rodar a aplicação
 CMD ["python", "app.py"]
